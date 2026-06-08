@@ -1,0 +1,11 @@
+# Streamlit のベーステーマ。
+# ここの色は dify_demo_app.py の BRAND と合わせておくと統一感が出ます。
+[theme]
+primaryColor = "#c0703a"            # アクセント（BRAND["accent"] と合わせる）
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f5f3ef"
+textColor = "#1f2937"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
