@@ -39,6 +39,8 @@ BRAND = {
     "show_sources": True,                    # Show RAG citations (the demo's centerpiece)
     "sources_label": "📄 Sources",
 }
+from auth_gate import require_access_code
+require_access_code(BRAND)
 # ============================================================
 
 
